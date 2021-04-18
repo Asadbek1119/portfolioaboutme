@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<style>
+
+</style>
+<body>
+<!-- Header section -->
+<header class="main-header">
+    <div class="container">
+        <div class="main-header__brand">
+            <a href="index.html">
+                <img src="images/appleLogo.png" alt="Logo">
+            </a>
+        </div>
+        <nav class="main-navigation">
+            <ul class="main-navigation__items">
+                <li class="main-navigation-item">
+                    <a href="index.html">Main</a>
+                </li>
+                <li class="main-navigation-item">
+                    <a href="#">About Me</a>
+                </li>
+                <li class="main-navigation-item">
+                    <a href="#">My Service</a>
+                </li>
+                <li class="main-navigation-item">
+                    <a href="#">My Clients</a>
+                </li>
+                <li class="main-navigation-item">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="main-navigation-item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="main-navigation-item">
+                    <a href="#">Partners</a>
+                </li>
+                <li class="main-navigation-item active">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- /Header section -->
+
+<div class="container">
+    <section class="contact">
+        <div class="section-title">
+            Get in Touch
+        </div>
+        <form action="/server.php" method="GET">
+            <textarea rows="10" placeholder="Enter Message" name="message"></textarea>
+            <div class="half-flex">
+                <div class="contact_firstname">
+                    <input type="text" placeholder="Enter Your Name" name="firstname">
+                </div>
+                <div class="contact_email">
+                    <input type="email" placeholder="Enter Your Email" name="email">
+                </div>
+            </div>
+            <input type="text" placeholder="Enter Subject" name="subject">
+            <button class="button contact-send" type="button">Send Message</button>
+        </form>
+    </section>
+</div>
+
+<!-- Footer section -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-brand">
+            <img src="https://atdesignandprinting.com.sg/wp-content/uploads/2016/10/cropped-logo.png"
+                 alt="Logo">
+        </div>
+        <nav class="footer-navigation">
+            <ul class="footer-navigation_items">
+                <li class="footer-navigation-item">
+                    <a href="#">Main</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="#">About Me</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="#">My Service</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="#">My Clients</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="footer-navigation-item">
+                    <a href="#">Partners</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="footer-socials">
+            <li class="footer-social">
+                <a href="#">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </li>
+            <li class="footer-social">
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="footer-social">
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+            <li class="footer-social">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="footer-text">
+            Copyright ©2021 All rights reserved | This template is made with by Colorlib
+        </p>
+    </div>
+</footer>
+<!-- /Footer section -->
+</body>
+</html>
